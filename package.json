@@ -1,0 +1,22 @@
+{
+  "name": "mapbox-geojson",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite serve --mode dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "axios": "^1.4.0",
+    "mapbox-gl": "^2.14.1",
+    "pinia": "^2.0.36",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.5"
+  }
+}
